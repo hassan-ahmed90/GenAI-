@@ -1,0 +1,37 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+langgraph
+
+# LLM Providers
+langchain-openai
+langchain-groq
+langchain-google-genai
+langchain-mistralai
+
+# Environment Variables
+python-dotenv
+
+# Tokenizer
+tiktoken
+
+# Data Validation
+pydantic
+fastapi
+uvicorn 
+
+faiss-cpu
+
+# HTTP Requests
+requests
+
+# Jupyter Notebook Support
+ipykernel
+jupyter
+
+# Optional Utilities
+numpy
+pandas
+
+
