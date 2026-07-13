@@ -1,37 +1,73 @@
+# ===========================
 # Core LangChain
+# ===========================
 langchain
 langchain-core
 langchain-community
 langgraph
 
-# LLM Providers
+# ===========================
+# LangChain Integrations
+# ===========================
 langchain-openai
 langchain-groq
 langchain-google-genai
 langchain-mistralai
+langchain-huggingface
 
+# ===========================
+# Hugging Face
+# ===========================
+transformers
+torch
+torchvision
+torchaudio
+accelerate
+huggingface-hub
+sentencepiece
+safetensors
+tokenizers
+
+# ===========================
 # Environment Variables
+# ===========================
 python-dotenv
 
-# Tokenizer
+# ===========================
+# Tokenizers
+# ===========================
 tiktoken
 
-# Data Validation
-pydantic
-fastapi
-uvicorn 
-
+# ===========================
+# Vector Stores
+# ===========================
 faiss-cpu
 
+# ===========================
+# Data Validation & APIs
+# ===========================
+pydantic
+fastapi
+uvicorn
+
+# ===========================
 # HTTP Requests
+# ===========================
 requests
 
-# Jupyter Notebook Support
+# ===========================
+# Jupyter
+# ===========================
 ipykernel
 jupyter
 
-# Optional Utilities
+# ===========================
+# Data Science
+# ===========================
 numpy
 pandas
 
-
+# ===========================
+# Optional Utilities
+# ===========================
+tqdm
