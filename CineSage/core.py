@@ -100,4 +100,10 @@ final_prompt = prompt_template.invoke({
 
 
 response = model.invoke(final_prompt)
-print(response.content)
+movie_data = parser.parse(response.content)
+print(movie_data)
+
+
+
+
+
